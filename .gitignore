@@ -1,0 +1,38 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+
+# Tool caches
+.pytest_cache/
+.ruff_cache/
+
+.vscode/
+.idea/
+
+# Local databases (SQLite arrives with background jobs)
+*.db
+*.sqlite3
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Coverage and test output
+.coverage
+htmlcov/
+
+# Local scratch and outputs
+*.log
+eval_runs/
