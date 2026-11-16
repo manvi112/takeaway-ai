@@ -1,0 +1,48 @@
+{
+  "meeting_date": "2026-11-05",
+  "action_items": [
+    {
+      "owner": "Vikram",
+      "due_date": "2026-11-09",
+      "evidence": [
+        "Vikram: I'll send the revised proposal on Monday."
+      ]
+    },
+    {
+      "owner": "Divya",
+      "due_date": "2026-11-06",
+      "evidence": [
+        "Divya: I'll check whether the export feature handles large files by tomorrow."
+      ]
+    },
+    {
+      "owner": "Divya",
+      "due_date": "2026-11-11",
+      "evidence": [
+        "Divya: Okay, I'll do the API docs by next Wednesday.",
+        "Vikram: Divya, please also write the API docs by next Wednesday."
+      ]
+    },
+    {
+      "owner": "Anita",
+      "due_date": null,
+      "evidence": [
+        "Anita: I'll share the updated brand guidelines with the team."
+      ]
+    },
+    {
+      "owner": "Sameer",
+      "due_date": null,
+      "evidence": [
+        "Sameer: I'll prepare two logo options for the client."
+      ]
+    },
+    {
+      "owner": null,
+      "due_date": null,
+      "evidence": [
+        "Vikram: Someone needs to confirm the invoice details with their finance team."
+      ]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 [project]
-name = "meeting-notes"
+name = "takeaway"
 version = "0.1.0"
-description = "Turn a meeting transcript into a summary, decisions and action items."
+description = "Takeaway: meeting transcripts in, owned and verifiable action items out."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
@@ -9,11 +9,13 @@ dependencies = [
     "google-genai>=2.33.0",
     "pydantic>=2.7",
     "pydantic-settings>=2.16.1",
+    "sqlalchemy>=2.1.8",
     "uvicorn[standard]>=0.54.0",
 ]
 
 [dependency-groups]
 dev = [
+    "httpx2>=2.16.0",
     "pytest>=8",
     "ruff>=0.6",
 ]

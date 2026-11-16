@@ -1,0 +1,48 @@
+{
+  "meeting_date": "2026-11-02",
+  "action_items": [
+    {
+      "owner": "Dev",
+      "due_date": "2026-11-05",
+      "evidence": [
+        "Dev: The payment API is about half done, I'll finish it by Thursday."
+      ]
+    },
+    {
+      "owner": "Sana",
+      "due_date": "2026-11-04",
+      "evidence": [
+        "Sana: I'll have the checkout screens ready by Wednesday."
+      ]
+    },
+    {
+      "owner": "Karan",
+      "due_date": null,
+      "evidence": [
+        "Karan: I'll write the test plan for the release."
+      ]
+    },
+    {
+      "owner": "Dev",
+      "due_date": "2026-11-04",
+      "evidence": [
+        "Dev: Friday is tight, I'll do it by Wednesday instead.",
+        "Meera: We need the database schema frozen first. Dev, can you do that by Friday?"
+      ]
+    },
+    {
+      "owner": null,
+      "due_date": null,
+      "evidence": [
+        "Karan: Someone should update the API docs once the schema is frozen."
+      ]
+    },
+    {
+      "owner": "Karan",
+      "due_date": "2026-11-03",
+      "evidence": [
+        "Karan: The login bug is still open, I'll fix it tomorrow."
+      ]
+    }
+  ]
+}

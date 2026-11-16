@@ -1,0 +1,323 @@
+Meeting Date: 2026-10-27
+Meeting: Daily Project Standup
+
+Ravi: Good morning everyone. Let's start with the project updates.
+Priya: The dashboard frontend is almost complete.
+Amit: I've finished setting up the backend APIs.
+Ravi: Great. We need to finalize the project budget this week.
+Ravi: I'll send the updated budget to the finance team by Friday.
+Priya: I'll review the dashboard design and check for UI issues.
+Amit: The API integration is working, but some endpoints are slow.
+Ravi: We should investigate the performance issues soon.
+Priya: Someone should email the client about our progress.
+Amit: Yes, the client hasn't received an update this week.
+Ravi: Maybe we could try a new monitoring tool for the backend.
+Priya: That sounds interesting, but let's discuss it later.
+Amit: We also need to decide which database to use for the new service.
+Ravi: I suggest PostgreSQL because we need relational data.
+Priya: I agree. PostgreSQL should work well for our requirements.
+Amit: Agreed. Let's use PostgreSQL for the new service.
+Ravi: Okay, we've decided to use PostgreSQL for the new service.
+Priya: The testing environment is ready for deployment.
+Amit: There are still a few minor bugs, but nothing critical.
+Ravi: Great, we'll discuss the remaining issues tomorrow.
+Ravi: Good morning everyone. Let's start with the project updates.
+Priya: The dashboard frontend is almost complete.
+Amit: I've finished setting up the backend APIs.
+Ravi: Great. We need to finalize the project budget this week.
+Ravi: I'll send the updated budget to the finance team by Friday.
+Priya: I'll review the dashboard design and check for UI issues.
+Amit: The API integration is working, but some endpoints are slow.
+Ravi: We should investigate the performance issues soon.
+Priya: Someone should email the client about our progress.
+Amit: Yes, the client hasn't received an update this week.
+Ravi: Maybe we could try a new monitoring tool for the backend.
+Priya: That sounds interesting, but let's discuss it later.
+Amit: We also need to decide which database to use for the new service.
+Ravi: I suggest PostgreSQL because we need relational data.
+Priya: I agree. PostgreSQL should work well for our requirements.
+Amit: Agreed. Let's use PostgreSQL for the new service.
+Ravi: Okay, we've decided to use PostgreSQL for the new service.
+Priya: The testing environment is ready for deployment.
+Amit: There are still a few minor bugs, but nothing critical.
+Ravi: Great, we'll discuss the remaining issues tomorrow.
+Ravi: Good morning everyone. Let's start with the project updates.
+Priya: The dashboard frontend is almost complete.
+Amit: I've finished setting up the backend APIs.
+Ravi: Great. We need to finalize the project budget this week.
+Ravi: I'll send the updated budget to the finance team by Friday.
+Priya: I'll review the dashboard design and check for UI issues.
+Amit: The API integration is working, but some endpoints are slow.
+Ravi: We should investigate the performance issues soon.
+Priya: Someone should email the client about our progress.
+Amit: Yes, the client hasn't received an update this week.
+Ravi: Maybe we could try a new monitoring tool for the backend.
+Priya: That sounds interesting, but let's discuss it later.
+Amit: We also need to decide which database to use for the new service.
+Ravi: I suggest PostgreSQL because we need relational data.
+Priya: I agree. PostgreSQL should work well for our requirements.
+Amit: Agreed. Let's use PostgreSQL for the new service.
+Ravi: Okay, we've decided to use PostgreSQL for the new service.
+Priya: The testing environment is ready for deployment.
+Amit: There are still a few minor bugs, but nothing critical.
+Ravi: Great, we'll discuss the remaining issues tomorrow.
+Ravi: Good morning everyone. Let's start with the project updates.
+Priya: The dashboard frontend is almost complete.
+Amit: I've finished setting up the backend APIs.
+Ravi: Great. We need to finalize the project budget this week.
+Ravi: I'll send the updated budget to the finance team by Friday.
+Priya: I'll review the dashboard design and check for UI issues.
+Amit: The API integration is working, but some endpoints are slow.
+Ravi: We should investigate the performance issues soon.
+Priya: Someone should email the client about our progress.
+Amit: Yes, the client hasn't received an update this week.
+Ravi: Maybe we could try a new monitoring tool for the backend.
+Priya: That sounds interesting, but let's discuss it later.
+Amit: We also need to decide which database to use for the new service.
+Ravi: I suggest PostgreSQL because we need relational data.
+Priya: I agree. PostgreSQL should work well for our requirements.
+Amit: Agreed. Let's use PostgreSQL for the new service.
+Ravi: Okay, we've decided to use PostgreSQL for the new service.
+Priya: The testing environment is ready for deployment.
+Amit: There are still a few minor bugs, but nothing critical.
+Ravi: Great, we'll discuss the remaining issues tomorrow.
+Ravi: Good morning everyone. Let's start with the project updates.
+Priya: The dashboard frontend is almost complete.
+Amit: I've finished setting up the backend APIs.
+Ravi: Great. We need to finalize the project budget this week.
+Ravi: I'll send the updated budget to the finance team by Friday.
+Priya: I'll review the dashboard design and check for UI issues.
+Amit: The API integration is working, but some endpoints are slow.
+Ravi: We should investigate the performance issues soon.
+Priya: Someone should email the client about our progress.
+Amit: Yes, the client hasn't received an update this week.
+Ravi: Maybe we could try a new monitoring tool for the backend.
+Priya: That sounds interesting, but let's discuss it later.
+Amit: We also need to decide which database to use for the new service.
+Ravi: I suggest PostgreSQL because we need relational data.
+Priya: I agree. PostgreSQL should work well for our requirements.
+Amit: Agreed. Let's use PostgreSQL for the new service.
+Ravi: Okay, we've decided to use PostgreSQL for the new service.
+Priya: The testing environment is ready for deployment.
+Amit: There are still a few minor bugs, but nothing critical.
+Ravi: Great, we'll discuss the remaining issues tomorrow.
+Ravi: Good morning everyone. Let's start with the project updates.
+Priya: The dashboard frontend is almost complete.
+Amit: I've finished setting up the backend APIs.
+Ravi: Great. We need to finalize the project budget this week.
+Ravi: I'll send the updated budget to the finance team by Friday.
+Priya: I'll review the dashboard design and check for UI issues.
+Amit: The API integration is working, but some endpoints are slow.
+Ravi: We should investigate the performance issues soon.
+Priya: Someone should email the client about our progress.
+Amit: Yes, the client hasn't received an update this week.
+Ravi: Maybe we could try a new monitoring tool for the backend.
+Priya: That sounds interesting, but let's discuss it later.
+Amit: We also need to decide which database to use for the new service.
+Ravi: I suggest PostgreSQL because we need relational data.
+Priya: I agree. PostgreSQL should work well for our requirements.
+Amit: Agreed. Let's use PostgreSQL for the new service.
+Ravi: Okay, we've decided to use PostgreSQL for the new service.
+Priya: The testing environment is ready for deployment.
+Amit: There are still a few minor bugs, but nothing critical.
+Ravi: Great, we'll discuss the remaining issues tomorrow.
+Ravi: Good morning everyone. Let's start with the project updates.
+Priya: The dashboard frontend is almost complete.
+Amit: I've finished setting up the backend APIs.
+Ravi: Great. We need to finalize the project budget this week.
+Ravi: I'll send the updated budget to the finance team by Friday.
+Priya: I'll review the dashboard design and check for UI issues.
+Amit: The API integration is working, but some endpoints are slow.
+Ravi: We should investigate the performance issues soon.
+Priya: Someone should email the client about our progress.
+Amit: Yes, the client hasn't received an update this week.
+Ravi: Maybe we could try a new monitoring tool for the backend.
+Priya: That sounds interesting, but let's discuss it later.
+Amit: We also need to decide which database to use for the new service.
+Ravi: I suggest PostgreSQL because we need relational data.
+Priya: I agree. PostgreSQL should work well for our requirements.
+Amit: Agreed. Let's use PostgreSQL for the new service.
+Ravi: Okay, we've decided to use PostgreSQL for the new service.
+Priya: The testing environment is ready for deployment.
+Amit: There are still a few minor bugs, but nothing critical.
+Ravi: Great, we'll discuss the remaining issues tomorrow.
+Ravi: Good morning everyone. Let's start with the project updates.
+Priya: The dashboard frontend is almost complete.
+Amit: I've finished setting up the backend APIs.
+Ravi: Great. We need to finalize the project budget this week.
+Ravi: I'll send the updated budget to the finance team by Friday.
+Priya: I'll review the dashboard design and check for UI issues.
+Amit: The API integration is working, but some endpoints are slow.
+Ravi: We should investigate the performance issues soon.
+Priya: Someone should email the client about our progress.
+Amit: Yes, the client hasn't received an update this week.
+Ravi: Maybe we could try a new monitoring tool for the backend.
+Priya: That sounds interesting, but let's discuss it later.
+Amit: We also need to decide which database to use for the new service.
+Ravi: I suggest PostgreSQL because we need relational data.
+Priya: I agree. PostgreSQL should work well for our requirements.
+Amit: Agreed. Let's use PostgreSQL for the new service.
+Ravi: Okay, we've decided to use PostgreSQL for the new service.
+Priya: The testing environment is ready for deployment.
+Amit: There are still a few minor bugs, but nothing critical.
+Ravi: Great, we'll discuss the remaining issues tomorrow.
+Ravi: Good morning everyone. Let's start with the project updates.
+Priya: The dashboard frontend is almost complete.
+Amit: I've finished setting up the backend APIs.
+Ravi: Great. We need to finalize the project budget this week.
+Ravi: I'll send the updated budget to the finance team by Friday.
+Priya: I'll review the dashboard design and check for UI issues.
+Amit: The API integration is working, but some endpoints are slow.
+Ravi: We should investigate the performance issues soon.
+Priya: Someone should email the client about our progress.
+Amit: Yes, the client hasn't received an update this week.
+Ravi: Maybe we could try a new monitoring tool for the backend.
+Priya: That sounds interesting, but let's discuss it later.
+Amit: We also need to decide which database to use for the new service.
+Ravi: I suggest PostgreSQL because we need relational data.
+Priya: I agree. PostgreSQL should work well for our requirements.
+Amit: Agreed. Let's use PostgreSQL for the new service.
+Ravi: Okay, we've decided to use PostgreSQL for the new service.
+Priya: The testing environment is ready for deployment.
+Amit: There are still a few minor bugs, but nothing critical.
+Ravi: Great, we'll discuss the remaining issues tomorrow.
+Ravi: Good morning everyone. Let's start with the project updates.
+Priya: The dashboard frontend is almost complete.
+Amit: I've finished setting up the backend APIs.
+Ravi: Great. We need to finalize the project budget this week.
+Ravi: I'll send the updated budget to the finance team by Friday.
+Priya: I'll review the dashboard design and check for UI issues.
+Amit: The API integration is working, but some endpoints are slow.
+Ravi: We should investigate the performance issues soon.
+Priya: Someone should email the client about our progress.
+Amit: Yes, the client hasn't received an update this week.
+Ravi: Maybe we could try a new monitoring tool for the backend.
+Priya: That sounds interesting, but let's discuss it later.
+Amit: We also need to decide which database to use for the new service.
+Ravi: I suggest PostgreSQL because we need relational data.
+Priya: I agree. PostgreSQL should work well for our requirements.
+Amit: Agreed. Let's use PostgreSQL for the new service.
+Ravi: Okay, we've decided to use PostgreSQL for the new service.
+Priya: The testing environment is ready for deployment.
+Amit: There are still a few minor bugs, but nothing critical.
+Ravi: Great, we'll discuss the remaining issues tomorrow.
+Ravi: Good morning everyone. Let's start with the project updates.
+Priya: The dashboard frontend is almost complete.
+Amit: I've finished setting up the backend APIs.
+Ravi: Great. We need to finalize the project budget this week.
+Ravi: I'll send the updated budget to the finance team by Friday.
+Priya: I'll review the dashboard design and check for UI issues.
+Amit: The API integration is working, but some endpoints are slow.
+Ravi: We should investigate the performance issues soon.
+Priya: Someone should email the client about our progress.
+Amit: Yes, the client hasn't received an update this week.
+Ravi: Maybe we could try a new monitoring tool for the backend.
+Priya: That sounds interesting, but let's discuss it later.
+Amit: We also need to decide which database to use for the new service.
+Ravi: I suggest PostgreSQL because we need relational data.
+Priya: I agree. PostgreSQL should work well for our requirements.
+Amit: Agreed. Let's use PostgreSQL for the new service.
+Ravi: Okay, we've decided to use PostgreSQL for the new service.
+Priya: The testing environment is ready for deployment.
+Amit: There are still a few minor bugs, but nothing critical.
+Ravi: Great, we'll discuss the remaining issues tomorrow.
+Ravi: Good morning everyone. Let's start with the project updates.
+Priya: The dashboard frontend is almost complete.
+Amit: I've finished setting up the backend APIs.
+Ravi: Great. We need to finalize the project budget this week.
+Ravi: I'll send the updated budget to the finance team by Friday.
+Priya: I'll review the dashboard design and check for UI issues.
+Amit: The API integration is working, but some endpoints are slow.
+Ravi: We should investigate the performance issues soon.
+Priya: Someone should email the client about our progress.
+Amit: Yes, the client hasn't received an update this week.
+Ravi: Maybe we could try a new monitoring tool for the backend.
+Priya: That sounds interesting, but let's discuss it later.
+Amit: We also need to decide which database to use for the new service.
+Ravi: I suggest PostgreSQL because we need relational data.
+Priya: I agree. PostgreSQL should work well for our requirements.
+Amit: Agreed. Let's use PostgreSQL for the new service.
+Ravi: Okay, we've decided to use PostgreSQL for the new service.
+Priya: The testing environment is ready for deployment.
+Amit: There are still a few minor bugs, but nothing critical.
+Ravi: Great, we'll discuss the remaining issues tomorrow.
+Ravi: Good morning everyone. Let's start with the project updates.
+Priya: The dashboard frontend is almost complete.
+Amit: I've finished setting up the backend APIs.
+Ravi: Great. We need to finalize the project budget this week.
+Ravi: I'll send the updated budget to the finance team by Friday.
+Priya: I'll review the dashboard design and check for UI issues.
+Amit: The API integration is working, but some endpoints are slow.
+Ravi: We should investigate the performance issues soon.
+Priya: Someone should email the client about our progress.
+Amit: Yes, the client hasn't received an update this week.
+Ravi: Maybe we could try a new monitoring tool for the backend.
+Priya: That sounds interesting, but let's discuss it later.
+Amit: We also need to decide which database to use for the new service.
+Ravi: I suggest PostgreSQL because we need relational data.
+Priya: I agree. PostgreSQL should work well for our requirements.
+Amit: Agreed. Let's use PostgreSQL for the new service.
+Ravi: Okay, we've decided to use PostgreSQL for the new service.
+Priya: The testing environment is ready for deployment.
+Amit: There are still a few minor bugs, but nothing critical.
+Ravi: Great, we'll discuss the remaining issues tomorrow.
+Ravi: Good morning everyone. Let's start with the project updates.
+Priya: The dashboard frontend is almost complete.
+Amit: I've finished setting up the backend APIs.
+Ravi: Great. We need to finalize the project budget this week.
+Ravi: I'll send the updated budget to the finance team by Friday.
+Priya: I'll review the dashboard design and check for UI issues.
+Amit: The API integration is working, but some endpoints are slow.
+Ravi: We should investigate the performance issues soon.
+Priya: Someone should email the client about our progress.
+Amit: Yes, the client hasn't received an update this week.
+Ravi: Maybe we could try a new monitoring tool for the backend.
+Priya: That sounds interesting, but let's discuss it later.
+Amit: We also need to decide which database to use for the new service.
+Ravi: I suggest PostgreSQL because we need relational data.
+Priya: I agree. PostgreSQL should work well for our requirements.
+Amit: Agreed. Let's use PostgreSQL for the new service.
+Ravi: Okay, we've decided to use PostgreSQL for the new service.
+Priya: The testing environment is ready for deployment.
+Amit: There are still a few minor bugs, but nothing critical.
+Ravi: Great, we'll discuss the remaining issues tomorrow.
+Ravi: Good morning everyone. Let's start with the project updates.
+Priya: The dashboard frontend is almost complete.
+Amit: I've finished setting up the backend APIs.
+Ravi: Great. We need to finalize the project budget this week.
+Ravi: I'll send the updated budget to the finance team by Friday.
+Priya: I'll review the dashboard design and check for UI issues.
+Amit: The API integration is working, but some endpoints are slow.
+Ravi: We should investigate the performance issues soon.
+Priya: Someone should email the client about our progress.
+Amit: Yes, the client hasn't received an update this week.
+Ravi: Maybe we could try a new monitoring tool for the backend.
+Priya: That sounds interesting, but let's discuss it later.
+Amit: We also need to decide which database to use for the new service.
+Ravi: I suggest PostgreSQL because we need relational data.
+Priya: I agree. PostgreSQL should work well for our requirements.
+Amit: Agreed. Let's use PostgreSQL for the new service.
+Ravi: Okay, we've decided to use PostgreSQL for the new service.
+Priya: The testing environment is ready for deployment.
+Amit: There are still a few minor bugs, but nothing critical.
+Ravi: Great, we'll discuss the remaining issues tomorrow.
+Ravi: Good morning everyone. Let's start with the project updates.
+Priya: The dashboard frontend is almost complete.
+Amit: I've finished setting up the backend APIs.
+Ravi: Great. We need to finalize the project budget this week.
+Ravi: I'll send the updated budget to the finance team by Friday.
+Priya: I'll review the dashboard design and check for UI issues.
+Amit: The API integration is working, but some endpoints are slow.
+Ravi: We should investigate the performance issues soon.
+Priya: Someone should email the client about our progress.
+Amit: Yes, the client hasn't received an update this week.
+Ravi: Maybe we could try a new monitoring tool for the backend.
+Priya: That sounds interesting, but let's discuss it later.
+Amit: We also need to decide which database to use for the new service.
+Ravi: I suggest PostgreSQL because we need relational data.
+Priya: I agree. PostgreSQL should work well for our requirements.
+Amit: Agreed. Let's use PostgreSQL for the new service.
+Ravi: Okay, we've decided to use PostgreSQL for the new service.
+Priya: The testing environment is ready for deployment.
+Amit: There are still a few minor bugs, but nothing critical.
+Ravi: Great, we'll discuss the remaining issues tomorrow.

@@ -1,0 +1,41 @@
+{
+  "meeting_date": "2026-11-06",
+  "action_items": [
+    {
+      "owner": "Tarun",
+      "due_date": "2026-11-11",
+      "evidence": [
+        "Tarun: Sure, I'll write the onboarding document by next Wednesday.",
+        "Kavya: Nice. Could you write the onboarding document for new joiners by next Wednesday?"
+      ]
+    },
+    {
+      "owner": "Kavya",
+      "due_date": "2026-11-09",
+      "evidence": [
+        "Kavya: I'll talk to the platform team about your access on Monday."
+      ]
+    },
+    {
+      "owner": "Tarun",
+      "due_date": null,
+      "evidence": [
+        "Tarun: I'll sign up for the workshop."
+      ]
+    },
+    {
+      "owner": "Kavya",
+      "due_date": null,
+      "evidence": [
+        "Kavya: I'll set up a mentoring session with Ananya."
+      ]
+    },
+    {
+      "owner": "Tarun",
+      "due_date": "2026-11-10",
+      "evidence": [
+        "Tarun: Thanks. I'll send you a summary of the feedback from the team on Tuesday."
+      ]
+    }
+  ]
+}

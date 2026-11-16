@@ -1,0 +1,26 @@
+{
+  "meeting_date": "2026-10-27",
+  "action_items": [
+    {
+      "owner": "Ravi",
+      "due_date": "2026-10-30",
+      "evidence": [
+        "Ravi: I'll send the updated budget to the finance team by Friday."
+      ]
+    },
+    {
+      "owner": "Priya",
+      "due_date": null,
+      "evidence": [
+        "Priya: I'll review the dashboard design and check for UI issues."
+      ]
+    },
+    {
+      "owner": null,
+      "due_date": null,
+      "evidence": [
+        "Priya: Someone should email the client about our progress."
+      ]
+    }
+  ]
+}

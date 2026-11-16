@@ -1,0 +1,16 @@
+Meeting Date: 2026-11-05
+Meeting: Client Feedback Review
+
+Vikram: Let's go through the client's feedback on the proposal.
+Anita: The client liked the layout but wants the pricing section clearer.
+Vikram: I'll send the revised proposal on Monday.
+Sameer: They asked for a dark mode, but that's out of scope for this phase.
+Divya: I'll check whether the export feature handles large files by tomorrow.
+Vikram: Divya, please also write the API docs by next Wednesday.
+Divya: Okay, I'll do the API docs by next Wednesday.
+Anita: I'll share the updated brand guidelines with the team.
+Sameer: I'll prepare two logo options for the client.
+Vikram: Someone needs to confirm the invoice details with their finance team.
+Anita: They also hinted at a discount, but we haven't discussed it.
+Vikram: Right, we won't promise anything on pricing.
+Divya: The last build passed all the tests.

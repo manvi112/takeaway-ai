@@ -1,0 +1,17 @@
+Meeting Date: 2026-11-02
+Meeting: Sprint Planning
+
+Meera: Let's start with the sprint planning for the payments release.
+Dev: The payment API is about half done, I'll finish it by Thursday.
+Sana: I'll have the checkout screens ready by Wednesday.
+Karan: I'll write the test plan for the release.
+Meera: We need the database schema frozen first. Dev, can you do that by Friday?
+Dev: Friday is tight, I'll do it by Wednesday instead.
+Karan: Someone should update the API docs once the schema is frozen.
+Sana: Maybe we could switch to a different CI provider.
+Meera: Interesting, but not for this sprint.
+Karan: The login bug is still open, I'll fix it tomorrow.
+Dev: The staging server was slow last week, but it's stable now.
+Meera: Okay, let's decide the release date.
+Sana: The twentieth works for design.
+Meera: Agreed, we'll release on the twentieth of November.

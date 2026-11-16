@@ -1,0 +1,17 @@
+Meeting Date: 2026-11-04
+Meeting: Outage Review
+
+Arjun: Thanks for joining the review of yesterday's outage.
+Neha: The outage was caused by an expired certificate on the gateway.
+Rohit: We should have had an alert for certificate expiry. I'll set one up.
+Isha: I'll rotate the gateway credentials today.
+Arjun: Neha, can you write the postmortem by Friday?
+Neha: Sure, I'll have the postmortem ready by Friday.
+Rohit: Someone needs to update the runbook with the renewal steps.
+Isha: We restarted the gateway twice during the incident.
+Neha: Maybe we should move to a different cloud region.
+Arjun: That's a bigger discussion, let's park it.
+Neha: We could add a status page too, but not this quarter.
+Arjun: I'll talk to the vendor about their renewal reminders on Monday.
+Rohit: I'll also review the alert thresholds next week.
+Arjun: Good, that covers it.

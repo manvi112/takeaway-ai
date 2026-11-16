@@ -1,0 +1,48 @@
+{
+  "meeting_date": "2026-11-04",
+  "action_items": [
+    {
+      "owner": "Rohit",
+      "due_date": null,
+      "evidence": [
+        "Rohit: We should have had an alert for certificate expiry. I'll set one up."
+      ]
+    },
+    {
+      "owner": "Isha",
+      "due_date": "2026-11-04",
+      "evidence": [
+        "Isha: I'll rotate the gateway credentials today."
+      ]
+    },
+    {
+      "owner": "Neha",
+      "due_date": "2026-11-06",
+      "evidence": [
+        "Neha: Sure, I'll have the postmortem ready by Friday.",
+        "Arjun: Neha, can you write the postmortem by Friday?"
+      ]
+    },
+    {
+      "owner": null,
+      "due_date": null,
+      "evidence": [
+        "Rohit: Someone needs to update the runbook with the renewal steps."
+      ]
+    },
+    {
+      "owner": "Arjun",
+      "due_date": "2026-11-09",
+      "evidence": [
+        "Arjun: I'll talk to the vendor about their renewal reminders on Monday."
+      ]
+    },
+    {
+      "owner": "Rohit",
+      "due_date": null,
+      "evidence": [
+        "Rohit: I'll also review the alert thresholds next week."
+      ]
+    }
+  ]
+}
