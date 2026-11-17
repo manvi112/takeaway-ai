@@ -11,10 +11,25 @@ from datetime import datetime
 from pathlib import Path
 
 from app.extract import ExtractionError, extract_long
+from app.usage import UsageTracker, track_usage
 from scripts.scoring import score_meeting
 
 EVAL_DIR = Path("data/eval")
 RUNS_DIR = Path("eval_runs")
+
+# USD per 1 million tokens for gemini-3.5-flash-lite.
+# Source: https://ai.google.dev/gemini-api/docs/generate-content/whats-new-gemini-3.6
+# The page does not say whether thinking
+# tokens are billed as output, so the cost is an estimate.
+INPUT_PRICE_PER_M = 0.30
+OUTPUT_PRICE_PER_M = 2.50
+
+
+def estimate_cost(usage: UsageTracker) -> float:
+    """Return the estimated cost in USD for the given usage."""
+    input_m = usage.input_tokens / 1_000_000
+    output_m = usage.output_tokens / 1_000_000
+    return input_m * INPUT_PRICE_PER_M + output_m * OUTPUT_PRICE_PER_M
 
 
 def run_meeting(name: str) -> dict:
@@ -23,11 +38,12 @@ def run_meeting(name: str) -> dict:
 
     start = time.perf_counter()
     error = None
-    try:
-        items = extract_long(transcript, labels["meeting_date"]).action_items
-    except ExtractionError as exc:
-        items, error = [], str(exc)
-    seconds = time.perf_counter() - start
+    with track_usage() as usage:
+        try:
+            items = extract_long(transcript, labels["meeting_date"]).action_items
+        except ExtractionError as exc:
+            items, error = [], str(exc)
+        seconds = time.perf_counter() - start
 
     return {
         "meeting": name,
@@ -35,6 +51,10 @@ def run_meeting(name: str) -> dict:
         "error": error,
         **score_meeting(items, labels["action_items"]),
         "extracted": [item.model_dump(mode="json") for item in items],
+        "calls": usage.calls,
+        "input_tokens": usage.input_tokens,
+        "output_tokens": usage.output_tokens,
+        "cost_usd": round(estimate_cost(usage), 6),
     }
 
 
@@ -43,12 +63,16 @@ def pct(part: int, whole: int) -> str:
 
 
 def print_report(results: list[dict]) -> None:
-    print(f"\n{'meeting':<14}{'found':>8}{'invented':>10}{'dup':>5}{'owner':>8}{'due':>7}{'secs':>7}")
+    print(
+        f"\n{'meeting':<14}{'found':>8}{'invented':>10}{'dup':>5}{'owner':>8}{'due':>7}"
+        f"{'secs':>7}{'calls':>7}{'tokens':>9}{'cost $':>9}"
+    )
     for r in results:
         found = f"{r['found']}/{r['expected']}"
         print(
             f"{r['meeting']:<14}{found:>8}{r['invented']:>10}{r['duplicates']:>5}"
             f"{r['owner_correct']:>8}{r['due_correct']:>7}{r['seconds']:>7}"
+            f"{r['calls']:>7}{r['input_tokens'] + r['output_tokens']:>9}{r['cost_usd']:>9.4f}"
         )
         if r["error"]:
             print(f"   FAILED: {r['error']}")
@@ -65,6 +89,10 @@ def print_report(results: list[dict]) -> None:
     print(f"Due correct:     {sum(r['due_correct'] for r in results)}/{found}")
     seconds = [r["seconds"] for r in results]
     print(f"Avg latency:     {sum(seconds) / len(seconds):.1f}s per meeting")
+    total_cost = sum(r["cost_usd"] for r in results)
+    avg_tokens = sum(r["input_tokens"] + r["output_tokens"] for r in results) / len(results)
+    print(f"Avg tokens:      {avg_tokens:.0f} per meeting")
+    print(f"Avg cost:        ${total_cost / len(results):.4f} per meeting (estimate)")
 
 
 def main() -> None:

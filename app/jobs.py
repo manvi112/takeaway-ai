@@ -2,6 +2,7 @@ import logging
 
 from app.api_schemas import JobStatus, MeetingCreate, MeetingOut
 from app.extract import ExtractionError, extract_long
+from app.llm import LLMUnavailableError
 from app.store import save_job
 
 logger = logging.getLogger(__name__)
@@ -18,6 +19,15 @@ def run_job(meeting_id: str, body: MeetingCreate) -> None:
                 id=meeting_id,
                 status=JobStatus.failed,
                 error="The model did not return a valid result.",
+            )
+        )
+    except LLMUnavailableError as e:
+        logger.warning("Job %s failed, model API unavailable: %s", meeting_id, e)
+        save_job(
+            MeetingOut(
+                id=meeting_id,
+                status=JobStatus.failed,
+                error="The AI service is busy or unavailable. Please try again in a few minutes.",
             )
         )
     except Exception:

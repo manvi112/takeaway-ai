@@ -50,3 +50,21 @@ def test_unexpected_crash_does_not_leak_details(monkeypatch):
     assert response["result"] is None
     assert "abc123" not in response["error"]
     assert response["error"] == "Internal error while processing this meeting."
+
+
+def test_job_fails_with_clear_message_when_ai_service_is_unavailable(monkeypatch):
+    from app.llm import LLMUnavailableError
+
+    def unavailable(transcript, meeting_date):
+        raise LLMUnavailableError("still failing after retries")
+
+    monkeypatch.setattr("app.jobs.extract_long", unavailable)
+
+    meeting_id = submit()
+
+    response = client.get(f"/meetings/{meeting_id}").json()
+    assert response["status"] == "failed"
+    assert response["result"] is None
+    assert response["error"] == (
+        "The AI service is busy or unavailable. Please try again in a few minutes."
+    )
